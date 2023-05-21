@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvText"
+        android:layout_width="367dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="16dp"
+        android:text="Hello world, didn't code today, here's a sneak peek at my next challenge🥳"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="300dp"
+        android:layout_height="262dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/lop" />
+
+    <ImageView
+        android:id="@+id/ivImage3"
+        android:layout_width="34dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="38dp"
+        app:layout_constraintStart_toEndOf="@+id/ivImage2"
+        app:layout_constraintTop_toBottomOf="@+id/ivImage"
+        app:srcCompat="@drawable/ic_baseline_repeat_24" />
+
+    <ImageView
+        android:id="@+id/ivImage2"
+        android:layout_width="37dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="38dp"
+        app:layout_constraintStart_toEndOf="@+id/ivImage1"
+        app:layout_constraintTop_toBottomOf="@+id/ivImage"
+        app:srcCompat="@drawable/ic_baseline_heart_broken_24" />
+
+    <ImageView
+        android:id="@+id/ivImage1"
+        android:layout_width="30dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="38dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivImage"
+        app:srcCompat="@drawable/ic_baseline_message_24" />
+
+    <ImageView
+        android:id="@+id/ivImage5"
+        android:layout_width="32dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="36dp"
+        app:layout_constraintStart_toEndOf="@+id/ivImage4"
+        app:layout_constraintTop_toBottomOf="@+id/ivImage"
+        app:srcCompat="@drawable/ic_baseline_download_done_24" />
+
+    <ImageView
+        android:id="@+id/ivImage4"
+        android:layout_width="32dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="38dp"
+        app:layout_constraintStart_toEndOf="@+id/ivImage3"
+        app:layout_constraintTop_toBottomOf="@+id/ivImage"
+        app:srcCompat="@drawable/ic_baseline_view_week_24" />
+</androidx.constraintlayout.widget.ConstraintLayout>
